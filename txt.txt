@@ -1,0 +1,9 @@
+fetch ---> grab something
+
+fetch has something,
+
+.then(data), 
+
+fetch ---> emoji
+
+fetch(x).then((data))   data = emoji
