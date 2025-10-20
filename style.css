@@ -2,4 +2,31 @@ body{
     height:100%;
     width:100%;
     text-align: center;
+--light: rgb(41, 41, 41);
+  --dark: rgb(36, 36, 36);
+  background: linear-gradient(
+    33.6deg,
+    var(--light) 0% 9%,
+    var(--dark) 11% 19%,
+    var(--light) 21% 29%,
+    var(--dark) 31% 39%,
+    var(--light) 41% 49%,
+    var(--dark) 51% 59%,
+    var(--light) 61% 69%,
+    var(--dark) 71% 79%,
+    var(--light) 81% 89%,
+    var(--dark) 91% 100%
+  );
+}
+.titleSequence{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom:25%;
+}
+.titleSubtitle{
+    font-size:75px;
+}
+.title{
+    font-size:100px;
 }

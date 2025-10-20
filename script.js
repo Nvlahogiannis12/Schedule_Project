@@ -2,6 +2,8 @@ let jsonFile = "";
 
 window.addEventListener("keydown", (event) => {
   document.getElementById("out").textContent = "";
+  document.getElementById("titleSequence").classList.add('d-none')
+   document.getElementById("title").classList.remove('d-none')
   let fileName = "nick.json";
   switch (event.key) {
     case "1":
