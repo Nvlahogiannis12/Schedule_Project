@@ -25,15 +25,17 @@ window.addEventListener("keydown", (event) => {
         document.getElementById("out").insertAdjacentHTML(
           "beforeend",
           `
-            <div class="card" style="width: 18rem;">
-  <div class="card-body">
-    <h3 class="card-title">${element.className}</h3>
-    <h4 class="card-subtitle mb-2 text-body-secondary">${element.teacher}</h4>
-    <p class="card-text">${element.roomNumber}</p>
-    <p class="card-text">${element.period}</p>
-    <p class="card-text">${element.subjectArea}</p>
-  </div>
-</div>
+            <div class="p-2 col-lg-4 col-sm-2">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h3 class="card-title">${element.className}</h3>
+                  <h4 class="card-subtitle mb-2 text-body-secondary">${element.teacher}</h4>
+                  <p class="card-text">${element.roomNumber}</p>
+                  <p class="card-text">${element.period}</p>
+                  <p class="card-text">${element.subjectArea}</p>
+                </div>
+              </div>
+            </div>
           `
         );
       });
