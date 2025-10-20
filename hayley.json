@@ -17,14 +17,7 @@
     "className": "Physical Education 12",
     "teacher": "Ms. Preston",
     "roomNumber": "Gym",
-    "period": "3 Q1 Q3 Q4",
-    "subjectArea": "Gym and Health"
-  },
-  {
-    "className": "Health 12",
-    "teacher": "Mrs. Preston",
-    "roomNumber": "C130",
-    "period": "3 Q2",
+    "period": "3",
     "subjectArea": "Gym and Health"
   },
 {
@@ -49,24 +42,10 @@
     "subjectArea": "Video and Digital Design"
   },
 {
-    "className": "Physical Education",
-    "teacher": "Mr. Sinisky",
-    "roomNumber": "Gym",
-    "period": "6 Q2 Q3 Q4",
-    "subjectArea": "PE and Sports"
-  },
-{
     "className": "Financial Literacy",
     "teacher": "Mr. Morgan",
     "roomNumber": "A132",
-    "period": "7 S1",
+    "period": "7",
     "subjectArea": "Marketing and Finance"
-  },
-  {
-    "className": "Popular Music 2",
-    "teacher": "Mr. Ippolito",
-    "roomNumber": "C103",
-    "period": "7 S2",
-    "subjectArea": "Music and Creative Arts"
   }
 ]
