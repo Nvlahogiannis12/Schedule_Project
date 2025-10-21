@@ -20,13 +20,29 @@ body{
 }
 .titleSequence{
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom:25%;
+    left: 10%;
+    bottom:50%;
 }
 .titleSubtitle{
     font-size:75px;
 }
 .title{
     font-size:100px;
+}
+
+.slideUp{
+    animation:slideUp;
+    animation-timing-function: linear;
+    animation-duration:0.4s;
+    animation-iteration-count: 1;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+@keyframes slideUp{
+    0%{
+        transform: translate(-50%, -25%)
+    }
+    100%{
+        transform: translateY(-50%, -100%)
+    }
 }
